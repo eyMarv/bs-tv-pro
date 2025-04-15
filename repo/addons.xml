@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.vavooto" name="VAVOO.TO" version="7.1.5.8" provider-name="kasi,michaz">
+<addon id="plugin.video.tools" name="Tools" version="8.1.2" provider-name="Michaz">
+    <requires>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.routing"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video executable</provides>
+    </extension>
+    <!--<extension point="xbmc.service" library="lib/service.py" start="login">
+        <provides>service</provides>
+    </extension>-->
+    <extension point="xbmc.addon.metadata">
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.vavooto" name="VAVOO.TO" version="7.1.6.2" provider-name="kasi, michaz, eyMarv">
 	<requires>
 		<import addon="script.module.requests"/>
 		<import addon="script.module.resolveurl"/>
@@ -21,69 +39,85 @@
 	</extension>
 </addon>
 
-<addon id="script.module.xstreamscraper" name="xStream Scraper" provider-name="michaz1988" version="2.7.2">
-	<requires>
-		<import addon="plugin.video.vavooto"/>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.six"/>
-        <import addon="script.module.resolveurl"/>
-        <import addon="plugin.video.xstream"/>
-        <!-- for remote debug -->
-        <import addon="script.module.pydevd" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-    <!--<extension point="xbmc.service" library="service.py" start="startup" />-->
-    <extension point="xbmc.addon.metadata">
-        <assets>
-            <icon>icon.png</icon>
-            <screenshot>icon.png</screenshot>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="plugin.video.tools" name="Tools" version="8.1.2" provider-name="Michaz">
-    <requires>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.routing"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video executable</provides>
-    </extension>
-    <!--<extension point="xbmc.service" library="lib/service.py" start="login">
-        <provides>service</provides>
-    </extension>-->
-    <extension point="xbmc.addon.metadata">
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="service.takealug.epg-grabber" name="Takealug EPG Grabber" version="1.2" provider-name="DeBaschdi">
+<addon id="plugin.video.xship" version="9025.04.06" name="[B]xShip[/B]" provider-name="xShip-Team">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
+        <import addon="script.module.six"/>
+        <import addon="repository.xship" version="1.5.0"/>
+        <import addon="script.module.resolveurl" version="5.1.100"/>
+        <!-- for remote debug -->
+        <import addon="script.module.pydevd" optional="true"/>
     </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
     <extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>EPG Grabber</summary>
-        <description lang="en">Grabbs EPG Data from Different IPTV Sources and generate an xmltv Guide</description>
-        <description lang="de">Grabbt EPG Daten von verschiedenen IPTV Quellen und erstellt eine guide.xml</description>
-        <source>https://github.com/DeBaschdi/repo/tree/master/service.takealug.epg-grabber/</source>
-        <forum>https://www.kodinerds.net/index.php/Thread/64901-RELEASE-Takealug-EPG-Grabber/</forum>
+        <summary lang="de_DE">xShip: Das Original</summary>
+        <summary lang="en_GB">xShip: The Original</summary>
+        <description lang="de">xShip wurde als Video-Addon entwickelt, um Streams verschiedenster Webseiten zu sammeln und anzuzeigen. Der Inhalt von xShip, als auch das Angebot an Webseiten-Inhalten wird von den xShip Entwicklern wieder weiter entwickelt.</description>
+        <description lang="en_GB">xShip was developed as a video add-on to collect and display streams from various websites. The content of xShip, as well as the range of website content, is being further developed by the xShip developers.</description>
+        <disclaimer lang="de_DE">Mit diesem Video-Addon kannst du auf alle angebotenen Streams verschiedenster deutscher Quellen zugreifen. Dieses Addon ist kein offizieller Teil des Kodi Media Center und wird daher nicht von den offiziellen Support-Kanälen abgedeckt! xShip durchsucht die enthaltenen Webseiten nach Streams und stellt diese in einer Übersicht dar. Der bereitgestellte Inhalt der Webseiten steht in keinem Bezug zu xShip oder den Entwicklern! xShip durchsucht die enthaltenen Webseiten nach Streams und stellt diese in einer Übersicht dar.</disclaimer>
+        <disclaimer lang="en_GB">With this video add-on you can access all streams offered by various German sources. This add-on is not an official part of the Kodi Media Center and is therefore not covered by the official support channels! xShip searches the included websites for streams and displays them in an overview. The content provided by the websites has no connection to xShip or the developers! xShip searches the included websites for streams and displays them in an overview.</disclaimer>
+        <language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+        <website>https://tiny.one/xship</website>
         <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>fanart.jpg</screenshot>
-            <screenshot>screenshot3.png</screenshot>
-            <screenshot>screenshot1.png</screenshot>
-            <screenshot>screenshot2.png</screenshot>
-        </assets>
-        <news lang="en">1.2+ New Providers</news>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/media/banner.png</banner>
+			<clearlogo>resources/media/clearlogo.png</clearlogo>
+			<screenshot>resources/media/screenshot-01.jpg</screenshot>
+			<screenshot>resources/media/screenshot-02.jpg</screenshot>
+			<screenshot>resources/media/screenshot-03.jpg</screenshot>
+			<screenshot>resources/media/screenshot-04.jpg</screenshot>
+		</assets>
     </extension>
+</addon>
+
+<addon id="repository.bstvpro" name="BS-TV-PRO Repository" provider-name="eyMarv" version="1.0">
+	<extension point="xbmc.addon.repository" name="BS-TV-PRO Repository">
+		<dir>
+			<info compressed="false">https://eyMarv.github.io/bs-tv-pro/repo/addons.xml</info>
+			<checksum>https://eyMarv.github.io/bs-tv-pro/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://eyMarv.github.io/bs-tv-pro/repo/</datadir>
+		</dir>
+			<dir minversion="19.0.0" maxversion="19.9.0">
+			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml</info>
+			<checksum>https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE19/master/</datadir>
+		</dir>
+		<dir minversion="20.0.0" maxversion="20.9.0">
+			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml</info>
+			<checksum>https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/</datadir>
+		</dir>
+		<dir minversion="21.0.0" maxversion="21.9.0">
+			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/addons.xml</info>
+			<checksum>https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/</datadir>
+		</dir>
+		<dir minversion="22.0.0" maxversion="22.9.0">
+			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/addons.xml</info>
+			<checksum>https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<description lang="en">Addons by eyMarv</description>
+		<website>https://eyMarv.github.io/bs-tv-pro</website>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="repository.castagnait" name="CastagnaIT Repository" version="2.0.1" provider-name="castagnait">
@@ -248,49 +282,6 @@
     </extension>
 </addon>
 
-<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="5.0">
-	<extension point="xbmc.addon.repository" name="Michaz Repository">
-		<dir>
-			<info compressed="false">https://michaz1988.github.io/repo/addons.xml</info>
-			<checksum>https://michaz1988.github.io/repo/addons.xml.md5</checksum>
-			<datadir zip="true">https://michaz1988.github.io/repo/</datadir>
-		</dir>
-			<dir minversion="19.0.0" maxversion="19.9.0">
-			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml</info>
-			<checksum>https://raw.github.com/kaffepausse71/SKINBASE19/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE19/master/</datadir>
-		</dir>
-		<dir minversion="20.0.0" maxversion="20.9.0">
-			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml</info>
-			<checksum>https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.NEXUS/master/</datadir>
-		</dir>
-		<dir minversion="21.0.0" maxversion="21.9.0">
-			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/addons.xml</info>
-			<checksum>https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.OMEGA/master/</datadir>
-		</dir>
-		<dir minversion="22.0.0" maxversion="22.9.0">
-			<info compressed="false">https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/addons.xml</info>
-			<checksum>https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/kaffepausse71/SKINBASE.PEGASUS/master/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<description lang="en">Addons by Michaz</description>
-		<website>https://michaz1988.github.io</website>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="repository.randalls.repo.matrix" name="Randall's Repo (Matrix)" version="1.0.1" provider-name="Randall">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
@@ -378,6 +369,36 @@
   </extension>
 </addon>
 
+<addon id="repository.xship" name="[B]xShip Repository[/B]" version="1.5.0" provider-name="xShip-Team">
+	<extension point="xbmc.addon.repository" name="xShip Repository">
+		<dir minversion="18.9.701" maxversion="21.9.700">
+            <info compressed="false">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/addons.xml</info>
+			<checksum verify="sha256">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/addons.xml.sha256</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/</datadir>
+        </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">xShip Repository</summary>
+		<summary lang="en_GB">xShip Repository</summary>
+		<description lang="de_DE">Dies ist das offizielle xShip Repository.[CR]Bei der Bereitstellung einer neuen xShip Version, wird diese vor der Veröffentlichung auf Funktionalität geprüft. Sollten dennoch Probleme auftreten, benachrichtige bitte das offizielle xShip-Team via Telegram.</description>
+		<description lang="de_GB">This is the official xShip repository.[CR]When a new xShip version is released, it is tested for functionality before being released. If you still encounter problems, please notify the official xShip team via Telegram.</description>
+		<disclaimer lang="de_DE">Sie können dieses Video Addon gerne verwenden. Der bereitgestellte Inhalt der Webseiten steht in keinem Bezug zu xShip oder den Entwicklern! Weitere Informationen finden Sie auf unserer Github Seite.</disclaimer>
+		<disclaimer lang="en_GB">You are welcome to use this video addon. The content provided on the websites has no connection to xShip or the developers! For more information, see our Github page.</disclaimer>
+		<language>de en</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<website>https://tiny.one/xship</website>
+		<source></source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/banner.png</banner>
+			<clearlogo>resources/clearlogo.png</clearlogo>
+			<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="repository.xstream" name="xStream Repository" version="1.2.4" provider-name="xStream-Team">
 	<extension point="xbmc.addon.repository" name="xStream Repository">
 		<dir minversion="18.9.701" maxversion="21.9.700">
@@ -408,71 +429,50 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.xship" version="9025.04.06" name="[B]xShip[/B]" provider-name="xShip-Team">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
+<addon id="script.module.xstreamscraper" name="xStream Scraper" provider-name="michaz1988" version="2.7.2">
+	<requires>
+		<import addon="plugin.video.vavooto"/>
         <import addon="script.module.requests"/>
         <import addon="script.module.six"/>
-        <import addon="repository.xship" version="1.5.0"/>
-        <import addon="script.module.resolveurl" version="5.1.100"/>
+        <import addon="script.module.resolveurl"/>
+        <import addon="plugin.video.xstream"/>
         <!-- for remote debug -->
         <import addon="script.module.pydevd" optional="true"/>
     </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
+    <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
     </extension>
-    <extension point="xbmc.service" library="service.py" start="startup" />
+    <!--<extension point="xbmc.service" library="service.py" start="startup" />-->
     <extension point="xbmc.addon.metadata">
-        <summary lang="de_DE">xShip: Das Original</summary>
-        <summary lang="en_GB">xShip: The Original</summary>
-        <description lang="de">xShip wurde als Video-Addon entwickelt, um Streams verschiedenster Webseiten zu sammeln und anzuzeigen. Der Inhalt von xShip, als auch das Angebot an Webseiten-Inhalten wird von den xShip Entwicklern wieder weiter entwickelt.</description>
-        <description lang="en_GB">xShip was developed as a video add-on to collect and display streams from various websites. The content of xShip, as well as the range of website content, is being further developed by the xShip developers.</description>
-        <disclaimer lang="de_DE">Mit diesem Video-Addon kannst du auf alle angebotenen Streams verschiedenster deutscher Quellen zugreifen. Dieses Addon ist kein offizieller Teil des Kodi Media Center und wird daher nicht von den offiziellen Support-Kanälen abgedeckt! xShip durchsucht die enthaltenen Webseiten nach Streams und stellt diese in einer Übersicht dar. Der bereitgestellte Inhalt der Webseiten steht in keinem Bezug zu xShip oder den Entwicklern! xShip durchsucht die enthaltenen Webseiten nach Streams und stellt diese in einer Übersicht dar.</disclaimer>
-        <disclaimer lang="en_GB">With this video add-on you can access all streams offered by various German sources. This add-on is not an official part of the Kodi Media Center and is therefore not covered by the official support channels! xShip searches the included websites for streams and displays them in an overview. The content provided by the websites has no connection to xShip or the developers! xShip searches the included websites for streams and displays them in an overview.</disclaimer>
-        <language>de</language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-        <website>https://tiny.one/xship</website>
         <assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<banner>resources/media/banner.png</banner>
-			<clearlogo>resources/media/clearlogo.png</clearlogo>
-			<screenshot>resources/media/screenshot-01.jpg</screenshot>
-			<screenshot>resources/media/screenshot-02.jpg</screenshot>
-			<screenshot>resources/media/screenshot-03.jpg</screenshot>
-			<screenshot>resources/media/screenshot-04.jpg</screenshot>
-		</assets>
+            <icon>icon.png</icon>
+            <screenshot>icon.png</screenshot>
+        </assets>
     </extension>
 </addon>
 
-<addon id="repository.xship" name="[B]xShip Repository[/B]" version="1.5.0" provider-name="xShip-Team">
-	<extension point="xbmc.addon.repository" name="xShip Repository">
-		<dir minversion="18.9.701" maxversion="21.9.700">
-            <info compressed="false">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/addons.xml</info>
-			<checksum verify="sha256">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/addons.xml.sha256</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/watchone/watchone.github.io/repo/</datadir>
-        </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="de_DE">xShip Repository</summary>
-		<summary lang="en_GB">xShip Repository</summary>
-		<description lang="de_DE">Dies ist das offizielle xShip Repository.[CR]Bei der Bereitstellung einer neuen xShip Version, wird diese vor der Veröffentlichung auf Funktionalität geprüft. Sollten dennoch Probleme auftreten, benachrichtige bitte das offizielle xShip-Team via Telegram.</description>
-		<description lang="de_GB">This is the official xShip repository.[CR]When a new xShip version is released, it is tested for functionality before being released. If you still encounter problems, please notify the official xShip team via Telegram.</description>
-		<disclaimer lang="de_DE">Sie können dieses Video Addon gerne verwenden. Der bereitgestellte Inhalt der Webseiten steht in keinem Bezug zu xShip oder den Entwicklern! Weitere Informationen finden Sie auf unserer Github Seite.</disclaimer>
-		<disclaimer lang="en_GB">You are welcome to use this video addon. The content provided on the websites has no connection to xShip or the developers! For more information, see our Github page.</disclaimer>
-		<language>de en</language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-		<website>https://tiny.one/xship</website>
-		<source></source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<banner>resources/banner.png</banner>
-			<clearlogo>resources/clearlogo.png</clearlogo>
-			<screenshot></screenshot>
-		</assets>
-	</extension>
+<addon id="service.takealug.epg-grabber" name="Takealug EPG Grabber" version="1.2" provider-name="DeBaschdi">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>EPG Grabber</summary>
+        <description lang="en">Grabbs EPG Data from Different IPTV Sources and generate an xmltv Guide</description>
+        <description lang="de">Grabbt EPG Daten von verschiedenen IPTV Quellen und erstellt eine guide.xml</description>
+        <source>https://github.com/DeBaschdi/repo/tree/master/service.takealug.epg-grabber/</source>
+        <forum>https://www.kodinerds.net/index.php/Thread/64901-RELEASE-Takealug-EPG-Grabber/</forum>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>fanart.jpg</screenshot>
+            <screenshot>screenshot3.png</screenshot>
+            <screenshot>screenshot1.png</screenshot>
+            <screenshot>screenshot2.png</screenshot>
+        </assets>
+        <news lang="en">1.2+ New Providers</news>
+    </extension>
 </addon>
 </addons>
