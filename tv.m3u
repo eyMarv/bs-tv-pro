@@ -23,8 +23,6 @@ plugin://plugin.video.vavooto/?name=AUTO+MOTOR+SPORT
 plugin://plugin.video.vavooto/?name=AXN+BLACK
 #EXTINF:-1 tvg-id="SONY" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/axnwhite.png",AXN WHITE
 plugin://plugin.video.vavooto/?name=AXN+WHITE
-#EXTINF:-1 tvg-id="BRUCEW" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/willis.png",BRUCE WILLIS
-plugin://plugin.video.vavooto/?name=BRUCE WILLIS
 #EXTINF:-1 tvg-id="BR" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/br.png",BR
 plugin://plugin.video.vavooto/?name=BR
 #EXTINF:-1 tvg-id="C-NET" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/cartoonnetwork.png",Cartoon Network
@@ -55,10 +53,6 @@ plugin://plugin.video.vavooto/?name=HEIMATKANAL
 plugin://plugin.video.vavooto/?name=HISTORY
 #EXTINF:-1 tvg-id="HR" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/hr.png",HR
 plugin://plugin.video.vavooto/?name=HR
-#EXTINF:-1 tvg-id="JASON STATHAM" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/statham.png",JASON STATHAM
-plugin://plugin.video.vavooto/?name=JASON STATHAM
-#EXTINF:-1 tvg-id="JEANCL" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/vandamme.png",JEAN CLAUDE V. DAMME
-plugin://plugin.video.vavooto/?name=JEAN CLAUDE VAN DAMME
 #EXTINF:-1 tvg-id="JUKE" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/jukebox.png",Jukebox
 plugin://plugin.video.vavooto/?name=JUKEBOX
 #EXTINF:-1 tvg-id="NICKJ" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/nickelodeonjunior.png",Junior
@@ -131,8 +125,6 @@ plugin://plugin.video.vavooto/?name=RTL+NITRO
 plugin://plugin.video.vavooto/?name=RTL+PASSION
 #EXTINF:-1 tvg-id="RTLPL" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/rtlup.png",RTL up
 plugin://plugin.video.vavooto/?name=RTL+UP
-#EXTINF:-1 tvg-id="STALLONE" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/stallone.png",SYLVESTER STALLONE
-plugin://plugin.video.vavooto/?name=SYLVESTER STALLONE
 #EXTINF:-1 tvg-id="SAT1" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/sat1.png",Sat 1
 plugin://plugin.video.vavooto/?name=SAT+1
 #EXTINF:-1 tvg-id="SAT1E" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/sat1emotions.png",Sat 1 Emotions
@@ -219,3 +211,17 @@ plugin://plugin.video.vavooto/?name=ZDF
 plugin://plugin.video.vavooto/?name=ZDF+INFO
 #EXTINF:-1 tvg-id="2NEO" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/zdfneo.png",ZDF neo
 plugin://plugin.video.vavooto/?name=ZDF+NEO
+#EXTINF:-1 tvg-id="JASON STATHAM" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/statham.png",JASON STATHAM
+plugin://plugin.video.vavooto/?name=JASON STATHAM
+#EXTINF:-1 tvg-id="JEANCL" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/vandamme.png",JEAN CLAUDE V. DAMME
+plugin://plugin.video.vavooto/?name=JEAN CLAUDE VAN DAMME
+#EXTINF:-1 tvg-id="STALLONE" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/stallone.png",SYLVESTER STALLONE
+plugin://plugin.video.vavooto/?name=SYLVESTER STALLONE
+#EXTINF:-1 tvg-id="BRUCEW" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/willis.png",BRUCE WILLIS
+plugin://plugin.video.vavooto/?name=BRUCE WILLIS
+#EXTINF:-1 tvg-id="WILLSM" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/willsmith.png",WILL SMITH
+plugin://plugin.video.vavooto/?name=WILL SMITH
+#EXTINF:-1 tvg-id="ARRN" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/arnold.png",ARNOLD SCHWARZENEGGER
+plugin://plugin.video.vavooto/?name=ARNOLD SCHWARZENEGGER
+#EXTINF:-1 tvg-id="RUUS" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/russell.png",KURT RUSSELL
+plugin://plugin.video.vavooto/?name=KURT RUSSELL
