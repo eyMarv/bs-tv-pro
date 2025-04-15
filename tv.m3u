@@ -23,6 +23,8 @@ plugin://plugin.video.vavooto/?name=AUTO+MOTOR+SPORT
 plugin://plugin.video.vavooto/?name=AXN+BLACK
 #EXTINF:-1 tvg-id="SONY" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/axnwhite.png",AXN WHITE
 plugin://plugin.video.vavooto/?name=AXN+WHITE
+#EXTINF:-1 tvg-id="BILDTV" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BILD_TV_Logo_2021.svg/500px-BILD_TV_Logo_2021.svg.png",BILD TV
+plugin://plugin.video.vavooto/?name=BILD TV
 #EXTINF:-1 tvg-id="BR" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/br.png",BR
 plugin://plugin.video.vavooto/?name=BR
 #EXTINF:-1 tvg-id="C-NET" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/cartoonnetwork.png",Cartoon Network
@@ -93,8 +95,6 @@ plugin://plugin.video.vavooto/?name=ORF+1
 plugin://plugin.video.vavooto/?name=ORF+2
 #EXTINF:-1 tvg-id="ORFSP" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/orfsportplus.png",ORF Sport
 plugin://plugin.video.vavooto/?name=ORF+SPORT
-#EXTINF:-1 tvg-id="BILDTV" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/41/BILD_TV_Logo_2021.svg",BILD TV
-plugin://plugin.video.vavooto/?name=BILD TV
 #EXTINF:-1 tvg-id="PHOENIX" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/phoenix.png",PHOENIX
 plugin://plugin.video.vavooto/?name=PHOENIX
 #EXTINF:-1 tvg-id="PRO7" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/prosieben.png",ProSieben
