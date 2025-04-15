@@ -133,7 +133,7 @@ plugin://plugin.video.vavooto/?name=SAT+1+EMOTIONS
 plugin://plugin.video.vavooto/?name=SAT+1+GOLD
 #EXTINF:-1 tvg-id="SERVUSA" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/servustv.png",Servus TV
 plugin://plugin.video.vavooto/?name=SERVUS+TV
-#EXTINF:-1 tvg-id="DF1" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/servustv.png",DF1
+#EXTINF:-1 tvg-id="DF1" group-title="Standart" tvg-logo="https://a2.tvspielfilm.de/images/tv/sender/mini/df1.webp",DF1
 plugin://plugin.video.vavooto/?name=DF 1
 #EXTINF:-1 tvg-id="SILVE" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/silverline.png",Silverline
 plugin://plugin.video.vavooto/?name=SILVERLINE
@@ -157,6 +157,12 @@ plugin://plugin.video.vavooto/?name=SKY+CRIME
 plugin://plugin.video.vavooto/?name=SKY+DOCUMENTARIES
 #EXTINF:-1 tvg-id="SKY-K" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/skykrimi.png",Sky Krimi
 plugin://plugin.video.vavooto/?name=SKY+KRIMI
+#EXTINF:-1 tvg-id="181" group-title="Standart",WARNER TV COMEDY
+plugin://plugin.video.vavooto/?name=WARNER TV COMEDY
+#EXTINF:-1 tvg-id="184" group-title="Standart",WARNER TV FILM
+plugin://plugin.video.vavooto/?name=WARNER TV FILM
+#EXTINF:-1 tvg-id="53" group-title="Standart",WARNER TV SERIE
+plugin://plugin.video.vavooto/?name=WARNER TV SERIE
 #EXTINF:-1 tvg-id="SKY-NA" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/skynature.png",Sky Nature
 plugin://plugin.video.vavooto/?name=SKY+NATURE
 #EXTINF:-1 tvg-id="SKY1" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/skyone.png",Sky One
@@ -225,3 +231,16 @@ plugin://plugin.video.vavooto/?name=WILL SMITH
 plugin://plugin.video.vavooto/?name=ARNOLD SCHWARZENEGGER
 #EXTINF:-1 tvg-id="RUUS" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/russell.png",KURT RUSSELL
 plugin://plugin.video.vavooto/?name=KURT RUSSELL
+#EXTINF:-1 tvg-id="TLJON" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/tljones.webp",TOMMY LEE JONES
+plugin://plugin.video.vavooto/?name=TOMMY LEE JONES
+#EXTINF:-1 tvg-id="JCHAN" group-title="Standart",JACKIE CHAN
+plugin://plugin.video.vavooto/?name=JACKIE CHAN
+#EXTINF:-1 tvg-id="DWASH" group-title="Standart",DENZEL WASHINGTON
+plugin://plugin.video.vavooto/?name=DENZEL WASHINGTON
+#EXTINF:-1 tvg-id="TCRUI" group-title="Standart",TOM CRUISE
+plugin://plugin.video.vavooto/?name=TOM CRUISE
+#EXTINF:-1 tvg-id="RCROW" group-title="Standart",RUSSEL CROWE
+plugin://plugin.video.vavooto/?name=RUSSEL CROWE
+#EXTINF:-1 tvg-id="JB007" group-title="Standart",JAMES BOND 007
+plugin://plugin.video.vavooto/?name=007
+
