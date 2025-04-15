@@ -18,7 +18,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.vavooto" name="VAVOO.TO" version="7.1.6.5" provider-name="kasi, michaz, eyMarv">
+<addon id="plugin.video.vavooto" name="VAVOO.TO" version="7.1.6.6" provider-name="kasi, michaz, eyMarv">
 	<requires>
 		<import addon="script.module.requests"/>
 		<import addon="script.module.resolveurl"/>
