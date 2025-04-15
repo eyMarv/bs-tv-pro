@@ -93,6 +93,8 @@ plugin://plugin.video.vavooto/?name=ORF+1
 plugin://plugin.video.vavooto/?name=ORF+2
 #EXTINF:-1 tvg-id="ORFSP" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/orfsportplus.png",ORF Sport
 plugin://plugin.video.vavooto/?name=ORF+SPORT
+#EXTINF:-1 tvg-id="BILDTV" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/41/BILD_TV_Logo_2021.svg",BILD TV
+plugin://plugin.video.vavooto/?name=BILD TV
 #EXTINF:-1 tvg-id="PHOENIX" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/phoenix.png",PHOENIX
 plugin://plugin.video.vavooto/?name=PHOENIX
 #EXTINF:-1 tvg-id="PRO7" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/prosieben.png",ProSieben
@@ -111,6 +113,8 @@ plugin://plugin.video.vavooto/?name=RBB
 plugin://plugin.video.vavooto/?name=RIC
 #EXTINF:-1 tvg-id="ROM" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/romancetv.png",Romance
 plugin://plugin.video.vavooto/?name=ROMANCE+TV
+#EXTINF:-1 tvg-id="RTF1" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/RTF1-logo.jpg",RTF1 - Regional
+https://www.rtf1.de/stream/nachrichten_live.mp4
 #EXTINF:-1 tvg-id="RTL" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/rtl.png",RTL
 plugin://plugin.video.vavooto/?name=RTL
 #EXTINF:-1 tvg-id="RTL2" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/rtlzwei.png",RTL 2
@@ -157,14 +161,20 @@ plugin://plugin.video.vavooto/?name=SKY+CRIME
 plugin://plugin.video.vavooto/?name=SKY+DOCUMENTARIES
 #EXTINF:-1 tvg-id="SKY-K" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/skykrimi.png",Sky Krimi
 plugin://plugin.video.vavooto/?name=SKY+KRIMI
-#EXTINF:-1 tvg-id="181" group-title="Standart",WARNER TV COMEDY
+#EXTINF:-1 tvg-id="181" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/68/Warner_TV_Comedy_Logo.png",WARNER TV COMEDY
 plugin://plugin.video.vavooto/?name=WARNER TV COMEDY
-#EXTINF:-1 tvg-id="184" group-title="Standart",WARNER TV FILM
+#EXTINF:-1 tvg-id="184" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/49/WarnerTV_FILM_Logo_2021.png",WARNER TV FILM
 plugin://plugin.video.vavooto/?name=WARNER TV FILM
-#EXTINF:-1 tvg-id="53" group-title="Standart",WARNER TV SERIE
+#EXTINF:-1 tvg-id="53" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/WarnerTV_Serie_Logo_2021.svg/1200px-WarnerTV_Serie_Logo_2021.svg.png",WARNER TV SERIE
 plugin://plugin.video.vavooto/?name=WARNER TV SERIE
 #EXTINF:-1 tvg-id="SKY-NA" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/skynature.png",Sky Nature
 plugin://plugin.video.vavooto/?name=SKY+NATURE
+#EXTINF:-1 tvg-id="4889" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/2560px-Sky_Sport_F1_-_Logo_2020.svg.png",SKY SPORT F1
+plugin://plugin.video.vavooto/?name=SKY SPORT F1
+#EXTINF:-1 tvg-id="42" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/c/ca/Sky_Sport_Bundesliga_2020.svg/512px-Sky_Sport_Bundesliga_2020.svg.png",SKY BUNDESLIGA
+plugin://plugin.video.vavooto/?name=SKY BUNDESLIGA
+#EXTINF:-1 tvg-id="190" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b2/Sky_Sport_News_Logo_2020.png",SKY SPORT NEWS
+plugin://plugin.video.vavooto/?name=SKY SPORT NEWS
 #EXTINF:-1 tvg-id="SKY1" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/skyone.png",Sky One
 plugin://plugin.video.vavooto/?name=SKY+1
 #EXTINF:-1 tvg-id="SKYRP" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/skyreplay.png",Sky Replay
@@ -233,14 +243,57 @@ plugin://plugin.video.vavooto/?name=ARNOLD SCHWARZENEGGER
 plugin://plugin.video.vavooto/?name=KURT RUSSELL
 #EXTINF:-1 tvg-id="TLJON" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/tljones.webp",TOMMY LEE JONES
 plugin://plugin.video.vavooto/?name=TOMMY LEE JONES
-#EXTINF:-1 tvg-id="JCHAN" group-title="Standart",JACKIE CHAN
+#EXTINF:-1 tvg-id="JCHAN" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/jackie.png",JACKIE CHAN
 plugin://plugin.video.vavooto/?name=JACKIE CHAN
-#EXTINF:-1 tvg-id="DWASH" group-title="Standart",DENZEL WASHINGTON
+#EXTINF:-1 tvg-id="DWASH" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/denzel.png",DENZEL WASHINGTON
 plugin://plugin.video.vavooto/?name=DENZEL WASHINGTON
-#EXTINF:-1 tvg-id="TCRUI" group-title="Standart",TOM CRUISE
+#EXTINF:-1 tvg-id="TCRUI" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/tomcruise.png",TOM CRUISE
 plugin://plugin.video.vavooto/?name=TOM CRUISE
-#EXTINF:-1 tvg-id="RCROW" group-title="Standart",RUSSEL CROWE
+#EXTINF:-1 tvg-id="RCROW" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/crowe.png",RUSSEL CROWE
 plugin://plugin.video.vavooto/?name=RUSSEL CROWE
-#EXTINF:-1 tvg-id="JB007" group-title="Standart",JAMES BOND 007
+#EXTINF:-1 tvg-id="JB007" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/jamesbond.png",JAMES BOND 007
 plugin://plugin.video.vavooto/?name=007
-
+#EXTINF:-1 group-title="Standart",FILM 24/7 WILL FERRELL
+plugin://plugin.video.vavooto/?name=FILM 24/7 WILL FERRELL
+#EXTINF:-1 group-title="Standart",FILM 24/7 FAST & FURIOUS
+plugin://plugin.video.vavooto/?name=FILM 24/7 FAST %26 FURIOUS
+#EXTINF:-1 group-title="Standart",FILME 24/7 | BRUCE LEE
+plugin://plugin.video.vavooto/?name=FILME 24/7 | BRUCE LEE
+#EXTINF:-1 group-title="Standart",FILME 24/7 | BEVERLY HILLS
+plugin://plugin.video.vavooto/?name=FILME 24/7 | BAVELERY HILLS
+#EXTINF:-1 group-title="Standart",FILME 24/7 | RAMBO
+plugin://plugin.video.vavooto/?name=FILME 24/7 | RAMBO
+#EXTINF:-1 group-title="Standart",FILME 24/7 | ROCKY
+plugin://plugin.video.vavooto/?name=FILME 24/7 | ROCKY
+#EXTINF:-1 group-title="Standart",FILM 24/7 ADAM SANDLER
+plugin://plugin.video.vavooto/?name=FILM 24/7 ADAM SANDLER
+#EXTINF:-1 group-title="Standart",FILM 24/7 BUD SPENCER 1
+plugin://plugin.video.vavooto/?name=FILM 24/7 BUD SPENCER 1
+#EXTINF:-1 group-title="Standart",FILM 24/7 BUD SPENCER 2
+plugin://plugin.video.vavooto/?name=FILM 24/7 BUD SPENCER 2
+#EXTINF:-1 group-title="Standart",FILM 24/7 BRAD PITT 5.1
+plugin://plugin.video.vavooto/?name=FILM 24/7 BRAD PITT 5.1
+#EXTINF:-1 group-title="Standart",FILM 24/7 DWAYNE JOHNSON
+plugin://plugin.video.vavooto/?name=FILM 24/7 DWAYNE JOHNSON
+#EXTINF:-1 group-title="Standart",FILM 24/7 GEORGE CLOONEY
+plugin://plugin.video.vavooto/?name=FILM 24/7 GEORGE CLOONEY
+#EXTINF:-1 group-title="Standart",FILM 24/7 JASON STATHAM
+plugin://plugin.video.vavooto/?name=FILM 24/7 JASON STATHAM
+#EXTINF:-1 group-title="Standart",FILM 24/7 JET LEE
+plugin://plugin.video.vavooto/?name=FILM 24/7 JET LEE
+#EXTINF:-1 group-title="Standart",FILM 24/7 RYAN REYNOLDS
+plugin://plugin.video.vavooto/?name=FILM 24/7 RYAN REYNOLDS
+#EXTINF:-1 group-title="Standart",FILM 24/7 MORGAN FREEMAN
+plugin://plugin.video.vavooto/?name=FILM 24/7 MORGAN FREEMAN
+#EXTINF:-1 group-title="Standart",FILM 24/7 WILL SMITH
+plugin://plugin.video.vavooto/?name=FILM 24/7 WILL SMITH
+#EXTINF:-1 group-title="Standart",FILM 24/7 WILL SMITH 2
+plugin://plugin.video.vavooto/?name=FILM 24/7 WILL SMITH 2
+#EXTINF:-1 group-title="Standart",FILM 24/7 NETFLIX ACTION
+plugin://plugin.video.vavooto/?name=FILM 24/7 NETFLIX ACTION
+#EXTINF:-1 group-title="Standart",SERIE 24/7 ALASKAN BUSH PEOPLE
+plugin://plugin.video.vavooto/?name=SERIE 24/7 ALASKAN BUSH PEOPLE
+EXTINF:-1 group-title="Standart",SERIE 24/7 DIE SCHATZSUCHER
+plugin://plugin.video.vavooto/?name=SERIE 24/7 DIE SCHATZSUCHER
+#EXTINF:-1 group-title="Standart",SERIE 24/7 STEEL BUDDIES
+plugin://plugin.video.vavooto/?name=SERIE 24/7 STEEL BUDDIES
