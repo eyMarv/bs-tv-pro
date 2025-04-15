@@ -26,8 +26,8 @@ jobs:
         run: python -c "import os; os.chdir('.epg'); import c"     
       - name: commit files
         run: |
-          git config --local user.email "michaz1988@gmail.com"
-          git config --local user.name "michaz1988"
+          git config --local user.email "eyMarv07@gmail.com"
+          git config --local user.name "eyMarv"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated epg" --allow-empty)   
       - name: push changes
