@@ -187,8 +187,6 @@ plugin://plugin.video.vavooto/?name=SPIEGEL+GESCHICHTE
 plugin://plugin.video.vavooto/?name=SPIEGEL+WISSEN
 #EXTINF:-1 tvg-id="SPORT" group-title="SPORT1" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/sport1.png",Sport 1+
 plugin://plugin.video.vavooto/?name=SPORT+1
-#EXTINF:-1 tvg-id="SPORT" group-title="S1PLU" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/sport1.png",Sport 1+
-plugin://plugin.video.vavooto/?name=SPORT+1%2B
 #EXTINF:-1 tvg-id="SPO-D" group-title="Sport" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/sportdigital.png",Sport digital
 plugin://plugin.video.vavooto/?name=SPORT+DIGITAL
 #EXTINF:-1 tvg-id="SUPER" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/rtlsuper.png",Super RTL
@@ -243,7 +241,7 @@ plugin://plugin.video.vavooto/?name=FILM 24/7 WILL SMITH 2
 plugin://plugin.video.vavooto/?name=ARNOLD SCHWARZENEGGER
 #EXTINF:-1 tvg-id="RUUS" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/russell.png",KURT RUSSELL
 plugin://plugin.video.vavooto/?name=KURT RUSSELL
-#EXTINF:-1 tvg-id="TLJON" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/tljones.webp",TOMMY LEE JONES
+#EXTINF:-1 tvg-id="TLJON" group-title="Standart" tvg-logo="https://static.wikia.nocookie.net/sony-pictures-entertaiment/images/4/4d/Tommy-lee-jones_sc_768x1024.png",TOMMY LEE JONES
 plugin://plugin.video.vavooto/?name=TOMMY LEE JONES
 #EXTINF:-1 tvg-id="JCHAN" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/jackie.png",JACKIE CHAN
 plugin://plugin.video.vavooto/?name=JACKIE CHAN
