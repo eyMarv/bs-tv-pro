@@ -237,6 +237,8 @@ plugin://plugin.video.vavooto/?name=SYLVESTER STALLONE
 plugin://plugin.video.vavooto/?name=BRUCE WILLIS
 #EXTINF:-1 tvg-id="WILLSM" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/willsmith.png",WILL SMITH
 plugin://plugin.video.vavooto/?name=WILL SMITH
+#EXTINF:-1 tvg-id="WLSMI2" group-title="Standart" tvg-logo="https://www.pngkey.com/png/full/42-420483_will-smith.png",FILM 24/7 WILL SMITH 2
+plugin://plugin.video.vavooto/?name=FILM 24/7 WILL SMITH 2
 #EXTINF:-1 tvg-id="ARRN" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/arnold.png",ARNOLD SCHWARZENEGGER
 plugin://plugin.video.vavooto/?name=ARNOLD SCHWARZENEGGER
 #EXTINF:-1 tvg-id="RUUS" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/russell.png",KURT RUSSELL
@@ -253,43 +255,39 @@ plugin://plugin.video.vavooto/?name=TOM CRUISE
 plugin://plugin.video.vavooto/?name=RUSSEL CROWE
 #EXTINF:-1 tvg-id="JB007" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/jamesbond.png",JAMES BOND 007
 plugin://plugin.video.vavooto/?name=007
-#EXTINF:-1 group-title="Standart",FILM 24/7 WILL FERRELL
-plugin://plugin.video.vavooto/?name=FILM 24/7 WILL FERRELL
-#EXTINF:-1 group-title="Standart",FILM 24/7 FAST & FURIOUS
+#EXTINF:-1 tvg-id="FANDF" group-title="Standart" tvg-logo="https://i.etsystatic.com/40184617/r/il/5a74d8/5336176758/il_570xN.5336176758_fkm2.jpg",FILM 24/7 FAST & FURIOUS
 plugin://plugin.video.vavooto/?name=FILM 24/7 FAST %26 FURIOUS
-#EXTINF:-1 group-title="Standart",FILME 24/7 | BRUCE LEE
+#EXTINF:-1 tvg-id="BRCLEE" group-title="Standart" tvg-logo="https://w0.peakpx.com/wallpaper/885/581/HD-wallpaper-bruce-lee-png-bruce-lee-transparent-png-transparent-png-bruce-lee-cartoon.jpg",FILME 24/7 | BRUCE LEE
 plugin://plugin.video.vavooto/?name=FILME 24/7 %7C BRUCE LEE
-#EXTINF:-1 group-title="Standart",FILME 24/7 | RAMBO
+#EXTINF:-1 tvg-id="BVHIL" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/42/Shield_of_Beverly_Hills%2C_California.png",FILME 24/7 | BEVERLY HILLS
+plugin://plugin.video.vavooto/?name=FILME 24/7 %7C BAVELERY HILLS
+#EXTINF:-1 tvg-id="RAMBO" group-title="Standart" tvg-logo="https://e7.pngegg.com/pngimages/235/367/png-clipart-rambo-rambo-thumbnail.png",FILME 24/7 | RAMBO
 plugin://plugin.video.vavooto/?name=FILME 24/7 %7C RAMBO
-#EXTINF:-1 group-title="Standart",FILME 24/7 | ROCKY
+#EXTINF:-1 tvg-id="ROCKYY" group-title="Standart" tvg-logo="https://e7.pngegg.com/pngimages/595/729/png-clipart-sylvester-stallone-sylvester-stallone-rocky-at-the-movies-sylvester-stallone-thumbnail.png",FILME 24/7 | ROCKY
 plugin://plugin.video.vavooto/?name=FILME 24/7 %7C ROCKY
-#EXTINF:-1 group-title="Standart",FILM 24/7 ADAM SANDLER
-plugin://plugin.video.vavooto/?name=FILM 24/7 ADAM SANDLER
-#EXTINF:-1 group-title="Standart",FILM 24/7 BUD SPENCER 1
+#EXTINF:-1 tvg-id="BSPE1" group-title="Standart" tvg-logo="https://www.budspencer-museum.com/images/upload/images/illustrationen/bud_spencer_museum_bambino.png",FILM 24/7 BUD SPENCER 1
 plugin://plugin.video.vavooto/?name=FILM 24/7 BUD SPENCER 1
-#EXTINF:-1 group-title="Standart",FILM 24/7 BUD SPENCER 2
+#EXTINF:-1 tvg-id="BSPE2" group-title="Standart" tvg-logo="https://i.etsystatic.com/32789151/r/il/38856d/4560667915/il_fullxfull.4560667915_r92r.jpg",FILM 24/7 BUD SPENCER 2
 plugin://plugin.video.vavooto/?name=FILM 24/7 BUD SPENCER 2
-#EXTINF:-1 group-title="Standart",FILM 24/7 DWAYNE JOHNSON
+#EXTINF:-1 tvg-id="BRDPT" group-title="Standart" tvg-logo="https://e7.pngegg.com/pngimages/102/336/png-clipart-brad-pitt-brad-pitt-thumbnail.png",FILM 24/7 BRAD PITT 5.1
+plugin://plugin.video.vavooto/?name=FILM 24/7 BRAD PITT 5.1
+#EXTINF:-1 tvg-id="DWJOH" group-title="Standart" tvg-logo="https://e7.pngegg.com/pngimages/791/911/png-clipart-dwayne-johnson-dwayne-johnson-4k-resolution-professional-wrestler-desktop-dwayne-johnson-people-fitness-professional-thumbnail.png",FILM 24/7 DWAYNE JOHNSON
 plugin://plugin.video.vavooto/?name=FILM 24/7 DWAYNE JOHNSON
-#EXTINF:-1 group-title="Standart",FILM 24/7 GEORGE CLOONEY
+#EXTINF:-1 tvg-id="GGCLO" group-title="Standart" tvg-logo="https://e7.pngegg.com/pngimages/985/223/png-clipart-george-clooney-spongebob-squarepants-suit-tuxedo-george-public-relations-necktie-thumbnail.png",FILM 24/7 GEORGE CLOONEY
 plugin://plugin.video.vavooto/?name=FILM 24/7 GEORGE CLOONEY
-#EXTINF:-1 group-title="Standart",FILM 24/7 JASON STATHAM
+#EXTINF:-1 tvg-id="JSTATH" group-title="Standart" tvg-logo="https://www.pngarts.com/files/18/Jason-Statham-Transparent.png",FILM 24/7 JASON STATHAM
 plugin://plugin.video.vavooto/?name=FILM 24/7 JASON STATHAM
-#EXTINF:-1 group-title="Standart",FILM 24/7 JET LEE
+#EXTINF:-1 tvg-id="JTLEE" group-title="Standart" tvg-logo="https://img.favpng.com/1/14/19/actor-chinese-martial-arts-film-director-film-producer-png-favpng-imAwzYUfpxjNsWi5xtqF4NCvC_t.jpg",FILM 24/7 JET LI
 plugin://plugin.video.vavooto/?name=FILM 24/7 JET LEE
-#EXTINF:-1 group-title="Standart",FILM 24/7 RYAN REYNOLDS
+#EXTINF:-1 tvg-id="REYNO" group-title="Standart" tvg-logo="https://e1.pngegg.com/pngimages/452/207/png-clipart-ryan-reynolds-24639184850-7ce36d60de-b-thumbnail.png",FILM 24/7 RYAN REYNOLDS
 plugin://plugin.video.vavooto/?name=FILM 24/7 RYAN REYNOLDS
-#EXTINF:-1 group-title="Standart",FILM 24/7 MORGAN FREEMAN
+#EXTINF:-1 tvg-id="MGFREE" group-title="Standart" tvg-logo="https://i.imgur.com/AjWYi7H.png",FILM 24/7 MORGAN FREEMAN
 plugin://plugin.video.vavooto/?name=FILM 24/7 MORGAN FREEMAN
-#EXTINF:-1 group-title="Standart",FILM 24/7 WILL SMITH
-plugin://plugin.video.vavooto/?name=FILM 24/7 WILL SMITH
-#EXTINF:-1 group-title="Standart",FILM 24/7 WILL SMITH 2
-plugin://plugin.video.vavooto/?name=FILM 24/7 WILL SMITH 2
-#EXTINF:-1 group-title="Standart",FILM 24/7 NETFLIX ACTION
+#EXTINF:-1 tvg-id="NTFLA" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Netflix-new-icon.png",FILM 24/7 NETFLIX ACTION
 plugin://plugin.video.vavooto/?name=FILM 24/7 NETFLIX ACTION
-#EXTINF:-1 group-title="Standart",SERIE 24/7 ALASKAN BUSH PEOPLE
+#EXTINF:-1 tvg-id="ALABP" group-title="Standart" tvg-logo="https://eu1-prod-images.disco-api.com/2024/03/08/d5a725da-f2e8-3388-834a-49e744255c3d.png",SERIE 24/7 ALASKAN BUSH PEOPLE
 plugin://plugin.video.vavooto/?name=SERIE 24/7 ALASKAN BUSH PEOPLE
-EXTINF:-1 group-title="Standart",SERIE 24/7 DIE SCHATZSUCHER
+#EXTINF:-1 tvg-id="DIESU" group-title="Standart" tvg-logo="https://www.dwdl.de/images/1724310386_die-schatzsucher---goldrausch-in-a.jpg",SERIE 24/7 DIE SCHATZSUCHER
 plugin://plugin.video.vavooto/?name=SERIE 24/7 DIE SCHATZSUCHER
-#EXTINF:-1 group-title="Standart",SERIE 24/7 STEEL BUDDIES
+#EXTINF:-1 tvg-id="STEELB" group-title="Standart" tvg-logo="https://steelbuddies.dmax.de/hosted/images/84/a475a80702447baa4d5f1b9b4bb374/Steel-Buddies-Logo.png",SERIE 24/7 STEEL BUDDIES
 plugin://plugin.video.vavooto/?name=SERIE 24/7 STEEL BUDDIES
