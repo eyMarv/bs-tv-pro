@@ -2,6 +2,13 @@ name: run service.py
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .gen_epg
+    tags-ignore:
+      - "*"
   schedule:
     - cron: "0 0 */5 * *"
 
