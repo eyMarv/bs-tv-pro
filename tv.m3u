@@ -109,8 +109,6 @@ plugin://plugin.video.vavooto/?name=PULS+4
 plugin://plugin.video.vavooto/?name=RED+BULL+TV
 #EXTINF:-1 tvg-id="RBB" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/rbb.png",RBB
 plugin://plugin.video.vavooto/?name=RBB
-#EXTINF:-1 tvg-id="RIC" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/ric.png",RiC
-plugin://plugin.video.vavooto/?name=RIC
 #EXTINF:-1 tvg-id="ROM" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/romancetv.png",Romance
 plugin://plugin.video.vavooto/?name=ROMANCE+TV
 #EXTINF:-1 tvg-id="RTF1" group-title="Standart" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/RTF1-logo.jpg",RTF1 - Regional
