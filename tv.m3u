@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="BSTVRESI" group-title="Standart" tvg-logo="https://cdn-icons-png.flaticon.com/512/5619/5619581.png",## VAVOO STALKER RESET ##
+#EXTINF:-1 tvg-id="BSTVRESI" group-title="Standart" tvg-logo="https://cdn-icons-png.flaticon.com/512/5619/5619581.png",### VAVOO STALKER RESET ###
 plugin://plugin.video.vavooto/?name=bstvclearcache
 #EXTINF:-1 tvg-id="13TH" group-title="Standart" tvg-logo="https://eyMarv.github.io/bs-tv-pro/logos/13thstreet.png",13TH Street
 plugin://plugin.video.vavooto/?name=13TH+STREET
@@ -291,3 +291,4 @@ plugin://plugin.video.vavooto/?name=SERIE 24/7 DIE SCHATZSUCHER
 plugin://plugin.video.vavooto/?name=SERIE 24/7 STEEL BUDDIES
 #EXTINF:-1 tvg-id="BSTVRES" group-title="Standart" tvg-logo="https://cdn-icons-png.flaticon.com/512/5619/5619581.png",## VAVOO STALKER RESET ##
 plugin://plugin.video.vavooto/?name=bstvclearcache
+
